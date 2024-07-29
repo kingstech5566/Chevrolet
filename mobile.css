@@ -1,0 +1,104 @@
+@media(max-width:450px){
+
+    
+    header div{
+        gap: 5px;
+        font-size: 11px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3px 6px;
+    }
+
+    header div .lang{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    header div figure{
+        font-size: 11px;
+        padding: 3px 6px;
+        margin-bottom: 6px;
+    }
+    
+    header div span{
+        gap: 0;
+    }
+    
+    header div span input{
+        width: 65px;
+        padding: 3px 6px;
+    }
+    
+    header div span input::placeholder{
+        color: white;
+    }
+    
+    header div span button{
+        display: none;
+    }
+    
+    header div select{
+        width: 60px;
+        padding: 3px 6px;
+    }
+    
+    main section nav{
+        gap: 10px;
+    }
+    
+    main section nav a{
+        font-size: 12px;
+    }
+    
+    .camaro{
+        height: 200px;
+        gap: 5px;
+    }
+    
+    .camaro h1, p, span{
+        color: white;
+    }
+    
+    .camaro h1{
+        margin-top: 80px;
+    }
+
+    .camaro, p, span{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    
+    .camaro button{
+        border: none;
+        padding: 7px 15px;
+        border-radius: 10px;
+    }
+    
+    .chevy{
+        height: 320px;
+    }
+    
+    .chevy article{
+        gap: 20px;
+    }
+    
+    .chevy article h2{
+        font-size: 18px;
+    }
+    
+    .chevy article span img{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .chevy article span p{
+        font-size: 12px;
+    }
+
+}

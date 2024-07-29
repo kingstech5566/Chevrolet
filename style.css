@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: fit-content;
+}
+
+header div{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+header div figure{
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+header div span{
+    gap: 0;
+}
+
+header div span input{
+    background-color: rgb(31, 31, 31);
+    border: none;
+    padding: 6px 10px;
+}
+
+header div span input::placeholder{
+    color: white;
+}
+
+header div span button{
+    margin-right: 30px;
+    padding: 5px 10px;
+    background-color: rgb(36, 36, 36);
+    cursor: pointer;
+    border: none;
+}
+
+header div select{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(27, 27, 27);
+}
+
+main .chevrolet{
+    width: 100%;
+    height: 50px;
+}
+
+main section nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+main section nav a{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.camaro{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    background-image: url(./images/black\ camaro.jpg);
+    background-size: 100%;
+    background-position: center center;
+}
+
+.camaro h1, p, span{
+    color: white;
+}
+
+.camaro h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 220px;
+}
+
+.camaro button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.chevy{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.chevy article{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.chevy article h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.chevy article span{
+    width: 100%;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chevy article span figure{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevy article span figure img{
+    object-fit: contain;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+}
+
+footer p{
+    font-size: 13px;
+    font-weight: 100;
+}
